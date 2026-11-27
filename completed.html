@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Completed Tasks</title>
+    <link rel="stylesheet" href="C:\Personal Task\CSS\completed.css">
+    <link rel="icon" href="C:\Personal Task\image\icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-left">
+            <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+            <div class="header-title">Personal Task Management System</div>
+        </div>
+        <div class="header-menu">
+            <a href="home.html">🏠 Home</a>
+            <a href="tasks.html">✅ Tasks</a>
+            <a href="calender.html">📅 Calendar</a>
+            <a href="completed.html" class="active">✔️ Completed</a>
+            <a href="finance.html">💰 Finance</a>
+            <a href="settings.html">⚙️ Settings</a>
+            <a href="contact.html">📞 Contact Us</a>
+        </div>
+       
+    </header>
+
+    <div class="app-container">
+        <div class="side">
+            <h2>📋 Task Manager</h2>
+            <a href="home.html">🏠 Dashboard</a>
+            <a href="tasks.html">✅ My Tasks</a>
+            <a href="calender.html">📅 Calendar</a>
+            <a class="active" href="completed.html">✔️ Completed Tasks</a>
+            <a href="finance.html">💰 Finance</a>
+            <a href="settings.html">⚙️ Settings</a>
+            <a href="contact.html">📞 Contact Us</a>
+        </div>
+
+        <div class="main">
+            <h1>✔️ Completed Tasks</h1>
+            <p>Tasks you have successfully completed.</p>
+
+            <div class="box" id="list"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 Personal Task Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="C:\Personal Task\Js\completed.js"></script>
+</body>
+</html>

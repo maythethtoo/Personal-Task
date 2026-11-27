@@ -1,0 +1,66 @@
+ 
+.welcome-bg {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('C:\Users\hp\Desktop\Personal Task\image\l.jpg'); /* မိမိ နောက်ခံပုံ Path အမည် ထည့်ပါ */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; /* ဘယ်/ညာ အလယ်ညှိခြင်း */
+    align-items: center;     /* အပေါ်/အောက် အလယ်ညှိခြင်း */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* အလယ်က စာတန်းနှင့် Button များ သပ်ရပ်စေရန် */
+.welcome-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Icon Size နှင့် Margin */
+.welcome-icon {
+    width: 80px; /* မိမိ စိတ်ကြိုက် အရွယ်အစား ပြောင်းနိုင်ပါသည် */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* စာတန်း Styling */
+.welcome-title {
+    color: #4a3e3d; /* ဓာတ်ပုံထဲက အရောင်အတိုင်း ခရမ်းရောင်/ညိုရောင် */
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.welcome-subtitle {
+    color: #7a6e6d;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* Get Started Button Styling */
+.btn-get-started {
+    padding: 14px 40px;
+    background-color: #968cf1; /* Theme Color Purple */
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-get-started:hover {
+    background-color: #978ddb;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(108, 92, 231, 0.4);
+}
